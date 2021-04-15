@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$primary: orange;
+$secondary: black;
+$third: 10px;
+
+h1 {
+  color: $primary;
+  margin: $third;
+}
+
+button {
+  background-color: $primary;
+  color: $secondary;
+  padding: $third;
+  margin: $third;
+}
+
+p {
+  color: $primary;
+  background-color: $secondary;
+  margin: $third;
+  width: 30%;
+}
